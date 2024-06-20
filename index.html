@@ -11,9 +11,9 @@
     <div id="calculator">
         <input id="display" readonly>
         <div id="keys">
-            <button onclick="clearDisplay()">C</button>
-            <button onclick="backspace()">CE</button>
-            <button onclick="appendToDisplay('%')" class="operator-btn">%</button>
+            <button onclick="clearDisplay()" class="operator-btn2" >C</button>
+            <button onclick="backspace()" class="operator-btn2" >CE</button>
+            <button onclick="calculate(appendToDisplay('/100'))" class="operator-btn2">%</button>
             <button onclick="appendToDisplay('/')" class="operator-btn">÷</button>
             <button onclick="appendToDisplay('7')">7</button>
             <button onclick="appendToDisplay('8')">8</button>
@@ -29,7 +29,7 @@
             <button onclick="appendToDisplay('+')" class="operator-btn">+</button>
             <button onclick="appendToDisplay('0')">0</button>
             <button onclick="appendToDisplay('.')">.</button>
-            <button onclick="calculate(appendToDisplay('**2'))" class="operator-btn">x²</button>
+            <button onclick="calculate(appendToDisplay('**2'))" class="operator-btn2">x²</button>
             <button onclick="calculate()" class="operator-btn">=</button>
             
             
